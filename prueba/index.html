@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  </head>
+<body>
+  
+  <div class="actualidad">
+    <div class="container">
+        <h1 class="text-center my-3">Actualidad</h1>
+        <div id="actualidad" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner row w-100 mx-auto">
+
+            <div class="carousel-item col-md-4 active">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Noticia 1</h4>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quaerat tenetur, ab consequatur atque excepturi et molestias tempora, eligendi.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Ultima actualizacion hace 3 min</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <a href="#" data-target="#modalIMG" data-toggle="modal">
+                  <img alt="Card image cap" class="img-fluid card-img-top" src="http://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" />
+                    <div class="card-body">
+                      <h4 class="card-title">Noticia 1</h4>
+                </a>
+                  <p class="card-text">Lorem ipsum, as tempora, eligendi.</p>
+                  <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
+              </div>
+            </div>	
+
+              </div>
+              
+
+
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Noticia 2</h4>
+                  <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is
+                    a little bit longer.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Ultima actualizacion hace 3 min</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Noticia 3</h4>
+                  <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is
+                    a little bit longer.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Ultima actualizacion hace 3 min</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Noticia 4</h4>
+                  <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is
+                    a little bit longer.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Ultima actualizacion hace 3 min</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Noticia 5</h4>
+                  <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is
+                    a little bit longer.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Ultima actualizacion hace 3 min</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Noticia 6</h4>
+                  <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is
+                    a little bit longer.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Ultima actualizacion hace 3 min</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+    
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center mt-4">
+                <a class="btn btn-outline-secondary mx-1 prev" href="javascript:void(0)" title="Previous">
+                  <i class="fa fa-lg fa-chevron-left"></i>
+                </a>
+                <a class="btn btn-outline-secondary mx-1 next" href="javascript:void(0)" title="Next">
+                  <i class="fa fa-lg fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="mb-10 p-10">
+                <img src="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" alt="" style="width:100%">
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-outline-danger btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <!--asfknaksfhkjasghkj-->
+
+
+    <div class="container mt-4">
+        <div class="row">
+
+      </div>
+      
+      
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="main.js" > </script>
+</body>
+</html>
