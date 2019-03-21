@@ -39,7 +39,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-fluid" src="img/incognito.jpg">
+                        <img class="img-fluid" v-bind:src="datos.img">
                     </div>
                 </div>
                 

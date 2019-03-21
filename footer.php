@@ -12,15 +12,16 @@
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="https://www.facebook.com/CipPuno/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/punocdcip/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright text-center">© 2019 Todos los derechos reservados
-                <a href="#">Colegio de Ingenieros del Perú</a>
-            </div>
+        <div class="footer-copyright text-center">
+        <p> © 2019 Todos los derechos reservados</p>
+            <p><a href="#">Colegio de Ingenieros del Perú - Consejo Departamental Puno </a></p>
+        </div>
     </footer>
 
 

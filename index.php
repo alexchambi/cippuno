@@ -77,10 +77,10 @@
                     
                     <div class="carousel-item col-md-6 col-lg-4 active">
                         <div class="card text-white bg-danger">
+                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 1</h4>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quaerat tenetur, ab consequatur atque excepturi et molestias tempora, eligendi.</p>
-                                <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
+                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
                     </div>
@@ -89,9 +89,9 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
+                        <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 2</h4>
-                                <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
@@ -99,19 +99,19 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card text-white bg-danger">
+                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 3</h4>
-                                <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
+                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
+                        <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 4</h4>
-                                <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
@@ -119,23 +119,25 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card text-white bg-danger">
+                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 5</h4>
-                                <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
+                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
+                        <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 6</h4>
-                                <p class="card-text">This is a longer Noticia with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
                     </div>
+
+
 
         
                 </div>

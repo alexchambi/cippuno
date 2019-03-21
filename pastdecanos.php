@@ -19,7 +19,7 @@
             <h3 class="h2-responsive font-weight-bold my-3">Gestión 2019-2021</h3>
     </div>
 
-    <div class="row my-4" id="decanospas">
+    <div class="row container my-4" id="decanospas">
         <div class="col-12 col-sm-6 col-lg-4" v-for="decan in decano">
             <article class="material-card Red">
                 <h2>
@@ -35,7 +35,7 @@
                 </h2>
                 <div class="mc-content">
                     <div class="img-container">
-                        <img class="img-fluid" v-bind:src="decan.img" alt="Card image">
+                        <img class="img-fluid pl-2" v-bind:src="decan.img" style="height:100%; width:90%;">
                     </div>
                 </div>
                 
