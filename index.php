@@ -77,19 +77,22 @@
                     
                     <div class="carousel-item col-md-6 col-lg-4 active">
                         <div class="card text-white bg-danger">
-                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 1</h4>
                                 <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
                     </div>
-
                     
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 2</h4>
                                 <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
@@ -99,7 +102,9 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card text-white bg-danger">
-                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                                <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 3</h4>
                                 <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
@@ -109,7 +114,9 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 4</h4>
                                 <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
@@ -119,7 +126,9 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card text-white bg-danger">
-                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                                <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 5</h4>
                                 <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
@@ -129,17 +138,15 @@
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h4 class="card-title">Noticia 6</h4>
                                 <p class="card-text"><small class="text-muted">Ultima actualizacion hace 3 min</small></p>
                             </div>
                         </div>
                     </div>
-
-
-
-        
                 </div>
 
           <div class="container">
@@ -159,6 +166,23 @@
     </div>
     
     <!--Fin Actualidad-->
+  <!-- .modal-profile -->
+  <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title"></h3>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- //.modal-profile -->
 
 
     <div class="container contenido">
