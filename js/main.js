@@ -174,3 +174,17 @@ decanospas = new Vue({
     }
 });
 
+consejo = new Vue({
+    el: '#consejo',
+    data: {
+        consejo: [
+            {nombre: 'Norman Jesús Beltran Castañón', regcip: '77541',img: 'img/incognito.png', tipo: 'DECANO'},
+            {nombre: 'Javier Mamani Paredes', regcip: '69105',img: 'img/incognito.png', tipo: 'VICEDECANO'},
+            {nombre: 'Victor Miguel Flores Ramos', regcip: '83826',img: 'img/incognito.png', tipo: 'SECRETARIO'},
+            {nombre: 'Willy Huallpa Vega', regcip: '83826',img: 'img/incognito.png', tipo: 'PRO SECRETARIO'},
+            {nombre: 'Edelfre Flores Velásquez', regcip: '62333',img: 'img/incognito.png', tipo: 'TESORERO'},
+            {nombre: 'María del Pilar Blanco Espezúa', regcip: '49688',img: 'img/incognito.png', tipo: 'PRO TESORERO'}
+        ],
+    }
+});
+

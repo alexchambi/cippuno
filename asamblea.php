@@ -13,7 +13,8 @@
         </nav>
     </div>
 </div>
-<section class="container">
+
+<div class="container">
     <div class="linea_borde text-center">
             <h2 class="h1-responsive font-weight-bold my-4">Asamblea Departamental</h2>
             <h3 class="h2-responsive font-weight-bold my-3">Gestión 2019-2021</h3>
@@ -23,31 +24,24 @@
         
     </div>
 
-    <div class="row" id="asambleistas">
-        <div class="col-12 col-sm-6 col-lg-4" v-for="datos in asambleista">
-            <article class="material-card Red">
-                <h2>
-                    <span class="text-center">ASAMBLEÍSTA</span>
-                    <strong>
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        Ing. {{datos.nombre}}
-                    </strong>
-                    <strong>
-                        <i class="fa fa-circle" aria-hidden="true"></i>
-                        Reg. CIP {{datos.regcip}}
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-fluid" v-bind:src="datos.img">
+    <div class="container text-center my-4" id="asambleistas">
+        <div class="row">
+            <div class="card-deck mx-auto col-xs-12 col-sm-6 col-md-4 mb-5" v-for="datos in asambleista">
+                <div class="card ">
+                    <img class="card-img-top" v-bind:src="datos.img" alt="Card image cap">
+                    <div class="card-body bg-danger text-white text-center">
+                        <h4 class="card-text">ASAMBLEISTA</h4>
+                        <h5 class="card-text">Ing. {{datos.nombre}}</h5>
+                        <h6><i class="fa fa-circle" aria-hidden="true"></i>
+                            Reg. CIP {{datos.regcip}}
+                        </h6>
                     </div>
                 </div>
-                
-            </article>
+            </div>
         </div>
-
     </div>
-</section>
+
+</div>
 
 
 

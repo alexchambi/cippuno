@@ -13,37 +13,29 @@
         </nav>
     </div>
 </div>
-<section class="container">
+<div class="container">
     <div class="linea_borde text-center">
-            <h2 class="h1-responsive font-weight-bold my-4">Decanos Pasados</h2>
-            <h3 class="h2-responsive font-weight-bold my-3">Gestión 2019-2021</h3>
+        <h2 class="h1-responsive font-weight-bold my-4">Ex Decanos del CIP CD Puno</h2>
+        <hr>
     </div>
 
-    <div class="row container my-4" id="decanospas">
-        <div class="col-12 col-sm-6 col-lg-4" v-for="decan in decano">
-            <article class="material-card Red">
-                <h2>
-                    <span class="text-center">{{decan.tipo}}</span>
-                    <strong>
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        Ing. {{decan.nombre}}
-                    </strong>
-                    <strong>
-                        <i class="fa fa-circle" aria-hidden="true"></i>
-                        Reg. CIP {{decan.regcip}}
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-fluid pl-2" v-bind:src="decan.img" style="height:100%; width:90%;">
+    <div class="container text-center my-4" id="decanospas">
+        <div class="row">
+            <div class="card-deck mx-auto col-xs-12 col-sm-6 col-md-4 mb-5" v-for="decan in decano">
+                <div class="card ">
+                    <img class="card-img-top" v-bind:src="decan.img" alt="Card image cap">
+                    <div class="card-body bg-danger text-white text-center">
+                        <h4 class="card-text">{{decan.tipo}}</h4>
+                        <h5 class="card-text">Ing. {{decan.nombre}}</h5>
+                        <h6><i class="fa fa-circle" aria-hidden="true"></i>
+                            Reg. CIP {{decan.regcip}}
+                        </h6>
                     </div>
                 </div>
-                
-            </article>
+            </div>
         </div>
-
     </div>
-</section>
+</div>
 
 
 

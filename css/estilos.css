@@ -432,93 +432,7 @@ figure.tarjeta.hover a {
 
 /* Directivas */
 /*cards--TODO REPRESENTANTES------*/
-@import "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";
 
-.material-card {
-  position: relative;
-  height: 0;
-  padding-bottom: calc(100% - 16px);
-  margin-bottom: 6.6em;
-}
-.material-card h2 {
-  position: absolute;
-	top: calc(100% - 80px);
-  left: 0;
-  width: 100%;
-  padding: 10px 16px;
-  color: #fff;
-  font-size: 1.4em;
-  line-height: 1.6em;
-  margin: 0;
-  z-index: 10;
-
-}
-.material-card h2 span {
-	display: block;
-	font-size: .8em;
-}
-.material-card h2 strong {
-  font-weight: 400;
-  display: block;
-  font-size: .8em;
-}
-.material-card h2:before,
-.material-card h2:after {
-  content: ' ';
-  position: absolute;
-  left: 0;
-  top: -16px;
-  width: 0;
-  border: 8px solid;
-
-}
-.material-card h2:after {
-  top: auto;
-  bottom: 0;
-}
-
-.material-card .mc-content {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 16px;
-  left: 16px;
-}
-
-
-.material-card .img-container {
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 3;
-}
-
-
-.material-card.Red h2 {
-	font-family: 'Roboto', sans-serif;
-  background-color:rgb(209,10,17);
-}
-.material-card.Red h2:after {
-  border-top-color: rgb(209,10,17);
-  border-right-color: rgb(209,10,17);
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-.material-card.Red h2:before {
-  border-top-color: transparent;
-  border-right-color: #B71C1C;
-  border-bottom-color: #B71C1C;
-  border-left-color: transparent;
-}
-
-/*FIN CARD REPRESENTANTES--------------*/
-
-.linea_borde{
-	border-bottom: 1px solid #ccc;
-}
 
 
 
@@ -531,6 +445,7 @@ footer{
 	color: white;
 	padding: 25px 0px 0px 0px;
 	margin: 0px;
+	font-size: 18px;
 }
 footer .container{
 	margin-bottom: 25px;
@@ -538,20 +453,30 @@ footer .container{
 footer .container .icons{
 	margin-top: 35px;
 }
-footer .container .icons a i{
-	margin-right: 15px;
+
+footer a .fa{
+	color: #ccc !important;
+	font-size: 19px;
+	border-radius: 50%;
+	margin: 0px;
+	background-color: #d42d24;
+	padding: 9px;
+	width: 39px;
+	height: 39px;
 }
+
 footer p{
 	margin-bottom: 0px;
 }
 footer {
 	margin-bottom: 0px;
 }
-.footer-copyright{
+footer .footer-copyright{
 	background-color: #2d2e2e;
 	padding: 25px;
 	margin: 0px;
 }
+
 
 
 

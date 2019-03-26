@@ -1,18 +1,18 @@
     <!--footer-->
     <footer>
-        <div class="container text-center">
+        <div class="container">
             <div class="row">
                 <div class="text-left col-sm-12 col-lg-6">
-                    <h6>CONTACTENOS:</h6>
+                    <h5>CONTACTENOS:</h5>
                     <p><i class="fa fa-map-marker"></i> Jr. Mariano H. Cornejo N° 130</p>
                     <p><i class="fa fa-calendar"></i> Lunes a Viernes: 9:00 am - 1:00 pm  |  3:00 pm - 7:00 pm</p>
                     <p> Sábados: 9:00 am – 1:00 pm</p>
                 </div>
                 <div class="icons text-center col-sm-12 col-lg-6">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/CipPuno/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/CipPuno" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.youtube.com/punocdcip/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
