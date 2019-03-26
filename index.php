@@ -56,7 +56,7 @@
     </div>
 
     <!-- Menu de Carousel-->
-    <div class="menu-carousel text-center" id="menucarousel">
+    <div class="menu-carousel text-center my-2" id="menucarousel">
         <div class="container">
             <ul class="list-inline">
                 <li class="list-inline-item" v-for="lis in menus"><a :href="lis.link"><i :class="lis.icon"></i> {{lis.nombre}}</a></li>

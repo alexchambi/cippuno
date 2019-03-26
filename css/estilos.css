@@ -430,13 +430,6 @@ figure.tarjeta.hover a {
 	color: #241616;
 }
 
-/* Directivas */
-/*cards--TODO REPRESENTANTES------*/
-
-
-
-
-
 
 /* Footer */
 footer{
@@ -445,7 +438,7 @@ footer{
 	color: white;
 	padding: 25px 0px 0px 0px;
 	margin: 0px;
-	font-size: 18px;
+	font-size: 17px;
 }
 footer .container{
 	margin-bottom: 25px;
@@ -456,13 +449,13 @@ footer .container .icons{
 
 footer a .fa{
 	color: #ccc !important;
-	font-size: 19px;
+	font-size: 16px;
 	border-radius: 50%;
 	margin: 0px;
 	background-color: #d42d24;
 	padding: 9px;
-	width: 39px;
-	height: 39px;
+	width: 36px;
+	height: 36px;
 }
 
 footer p{
