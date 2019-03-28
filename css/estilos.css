@@ -17,8 +17,8 @@ h1,h2,h3 {
 
 /*----------- Menu Top -----------*/
 .nav-top{
-	background-color: #212529;
-	/*background-color: #bd2130;*/
+	/*background-color: #212529;
+	*/background-color: #bd2130;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 }

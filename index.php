@@ -192,23 +192,25 @@
         <div class="container mx-auto">
             <h1 class="text-center font-weight-bold">Eventos CIP</h1>
             <div class="row">
-                <div class="container col-md-5">             
-                    <div class="card">
-                        <a href="#" class="ventanamodal">
-                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
-                        </a>
+                <div class="card-deck">
+                    <div class="container col-md-5">             
+                        <div class="card">
+                            <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="img/eventos/maccaferri.jpg" alt="Card image cap">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="container col-md-1">
+                    <div class="container col-md-1">
 
-                </div>
-                <div class="container col-md-5">                   
-                    <div class="card">
-                        <a href="#" class="ventanamodal">
-                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
-                        </a>
                     </div>
-                </div> 
+                    <div class="container col-md-5">                   
+                        <div class="card">
+                            <a href="#" class="ventanamodal">
+                                <img class="card-img-top" src="img/eventos/sistemabombeo.jpg" alt="Card image cap">
+                            </a>
+                        </div>
+                    </div> 
+                </div>
             <button class="btn btn-lg btn-primary mx-auto pd-12"><i class="fa fa-calendar"></i> Ver Calendario de Eventos</button>
         </div>
       </div>
