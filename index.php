@@ -3,7 +3,7 @@
     ?>
 
     <!--Carousel-->
-    <!--div class="carousel slide" data-ride="carousel" id="carouselcip" >
+    <div class="carousel slide" data-ride="carousel" id="carouselcip" >
         <ol class="carousel-indicators">
             <li data-target="#carouselcip" data-slide-to="0" class="active"></li>
             <li data-target="#carouselcip" data-slide-to="1"></li>
@@ -53,7 +53,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div-->
+    </div>
 
     <!-- Menu de Carousel-->
     <div class="menu-carousel text-center " id="menucarousel">
