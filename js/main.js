@@ -40,6 +40,18 @@ mostrarBusqueda = new Vue({
         mostrar:true
     }
 });
+
+click = new Vue({
+    el: "#docs",
+    data: {
+        clickleyes: 1,
+        clicksimbolos: 0,
+        clickestatutos: 0,
+        clickreglamentos: 0,
+        clickcodigos: 0,
+    }
+});
+
 var abrir = new Vue({
     el: '#app',
     data: {

@@ -2,7 +2,7 @@
     "use strict";
     // Auto-scroll
     $('#actualidad').carousel({
-      interval: 5000
+      interval: 6000
     });
   
     // Control buttons

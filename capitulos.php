@@ -8,7 +8,7 @@
             <div class="breadcrumbedit">
                 <div class="container">
                     <nav aria-label="breadcrumb">      
-                            <h2 class="">Capitulos</h2>
+                            <h2>Capitulos</h2>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Capitulos</li>
@@ -48,9 +48,9 @@
         <!-- Agricolas -->
         <div class="container" v-if="dato==1">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Agrícola Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Agrícola Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/agricolas.jpg" alt="Ingenieria Agricola">
-                <h5 class="m-4">Directiva:</h5>
+                <h5 class="my-4">Directiva:</h5>
                 <div class="container text-center">
                     <table class="table table-sm">
                         <tbody>
@@ -83,7 +83,7 @@
 <!-- Agroindustriales -->
 <div class="container" v-else-if="dato==2">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Agroindustrial Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Agroindustrial Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/agronomia.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -118,7 +118,7 @@
     <!-- Agronomos y Zootecnistas -->
         <div class="container" v-else-if="dato==3">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Agronomica y Zootecnia Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Agronomica y Zootecnia Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/quimica.jpg" alt="Ingenieria Agricola">
                 <br>
                 <h5 class="m-4">Directiva:</h5>
@@ -154,7 +154,7 @@
     <!-- Civiles -->
         <div class="container" v-else-if="dato==4">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Civil Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Civil Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/geologica.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -189,7 +189,7 @@
     <!-- Minas -->
         <div class="container" v-else-if="dato==5">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería de Minas Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería de Minas Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/zootecnia.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -224,7 +224,7 @@
     <!-- Sistemas -->
         <div class="container" v-else-if="dato==6">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería de Sistemas Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería de Sistemas Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/agricolas.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -263,7 +263,7 @@
     <!-- Economia  -->
         <div class="container" v-else-if="dato==7">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Económica  Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Económica  Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/zootecnia.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -298,7 +298,7 @@
     <!-- Electricistas-->
         <div class="container" v-else-if="dato==8">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Electrica Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Electrica Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/agricolas.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -333,7 +333,7 @@
     <!--  Elextronicos -->
         <div class="container" v-else-if="dato==9">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Electrónica Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Electrónica Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/zootecnia.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -368,7 +368,7 @@
     <!-- Estadisticos -->
         <div class="container" v-else-if="dato==10">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Estadística Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Estadística Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/geologica.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -403,7 +403,7 @@
     <!-- Geologos -->
         <div class="container" v-else-if="dato==11">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Geológica Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Geológica Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/zootecnia.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -446,7 +446,7 @@
     <!-- Mecanicos Electricistas -->
         <div class="container" v-else-if="dato==12">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Mecánica Electrica Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Mecánica Electrica Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/quimica.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -481,7 +481,7 @@
     <!-- Metalurgistas  -->
         <div class="container" v-else-if="dato==13">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Metalurgica  Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Metalurgica  Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/agricolas.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -520,7 +520,7 @@
     <!--  Pesqueros -->
         <div class="container" v-else-if="dato==14">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Pesquera Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Pesquera Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/quimica.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -555,7 +555,7 @@
     <!--  Quimicos  -->
         <div class="container" v-else-if="dato==15">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Química Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Química Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/geologica.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">
@@ -590,7 +590,7 @@
     <!--  Topografos -->
         <div class="container" v-else-if="dato==16">
             <div class="jumbotron jumbotron-fluid text-center">
-                <h4 class="">Directiva del Capítulo de Ingeniería Topografica y Agrimensura Gestión 2019 - 2021</h4>
+                <h4 class="mb-4">Directiva del Capítulo de Ingeniería Topografica y Agrimensura Gestión 2019 - 2021</h4>
                 <img class="img-fluid" src="img/capitulos/quimica.jpg" alt="Ingenieria Agricola">
                 <h5 class="m-4">Directiva:</h5>
                 <div class="container text-center">

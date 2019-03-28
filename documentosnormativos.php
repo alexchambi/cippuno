@@ -18,14 +18,17 @@
     
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row" id="docs">
+            <div class="col-md-12 my-12">
                 <h5>Documentos Normativos</h5>
                 <div id="accordion">
 
                     <div class="card">
                         <div class="card-header" id="headingOne">
-                            <h5><button class="btn btn-outline-dark btn-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-plus-square"></i> Leyes</button></h5>
+                            <button v-on:click="clickleyes++" class="btn btn-outline-dark btn-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div v-if="clickleyes%2==0"><i class="fa fa-plus-square"></i> Leyes</div>
+                                <div v-else><i class="fa fa-minus-square"></i> Leyes</div>
+                            </button>
                         </div>
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
@@ -55,12 +58,12 @@
                     </div>
 
                     <div class="card">
+                        
                         <div class="card-header" id="headingSimbolos">
-                        <h5>
-                            <button class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseSimbolos" aria-expanded="false" aria-controls="collapseSimbolos">
-                            <i class="fa fa-plus-square"></i> Simbolos
+                            <button v-on:click="clicksimbolos++" class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseSimbolos" aria-expanded="false" aria-controls="collapseSimbolos">
+                                <div v-if="clicksimbolos%2==0"><i class="fa fa-plus-square"></i> Simbolo</div>
+                                <div v-else><i class="fa fa-minus-square"></i> Simbolo</div>
                             </button>
-                        </h5>
                         </div>
                         <div id="collapseSimbolos" class="collapse" aria-labelledby="headingSimbolos" data-parent="#accordion">
                             <div class="card-body">
@@ -78,8 +81,12 @@
                     </div>
 
                     <div class="card">
+
                         <div class="card-header" id="headingTwo">
-                            <h5><button class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-plus-square"></i> Estatutos</button></h5>
+                            <button v-on:click="clickestatutos++" class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div v-if="clickestatutos%2==0"><i class="fa fa-plus-square"></i> Estatutos</div>
+                                <div v-else><i class="fa fa-minus-square"></i> Estatutos</div>
+                            </button>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
@@ -98,7 +105,10 @@
                     
                     <div class="card">
                         <div class="card-header" id="headingReglamentos">
-                        <h5><button class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseReglamentos" aria-expanded="false" aria-controls="collapseReglamentos"><i class="fa fa-plus-square"></i> Reglamentos</button></h5>
+                        <button v-on:click="clickreglamentos++" class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseReglamentos" aria-expanded="false" aria-controls="collapseReglamentos">
+                            <div v-if="clickreglamentos%2==0"><i class="fa fa-plus-square"></i> Reglamentos</div>
+                            <div v-else><i class="fa fa-minus-square"></i> Reglamentos</div>
+                        </button>
                         </div>
                         <div id="collapseReglamentos" class="collapse" aria-labelledby="headingReglamentos" data-parent="#accordion">
                             <div class="card-body">
@@ -271,11 +281,11 @@
 
                     <div class="card">
                             <div class="card-header" id="headingCodigo">
-                            <h5>
-                                <button class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseCodigo" aria-expanded="false" aria-controls="collapseCodigo">
-                                <i class="fa fa-plus-square"></i> Código Deontológico
-                                </button>
-                            </h5>
+                            <button v-on:click="clickcodigos++" class="btn btn-outline-dark btn-block collapsed" data-toggle="collapse" data-target="#collapseCodigo" aria-expanded="false" aria-controls="collapseCodigo">
+                            <div v-if="clickcodigos%2==0"><i class="fa fa-plus-square"></i> Código Deontológico</div>
+                            <div v-else><i class="fa fa-minus-square"></i> Código Deontológico</div>
+                            </button>
+                        
                             </div>
                             <div id="collapseCodigo" class="collapse" aria-labelledby="headingCodigo" data-parent="#accordion">
                                 <div class="card-body">

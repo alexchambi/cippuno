@@ -6,10 +6,11 @@
     <div class="breadcrumbedit">
         <div class="container">
             <nav aria-label="breadcrumb">      
-                    <h2 class="">Directiva</h2>
+                    <h2 class="">Representantes</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Institucionales</li>
+                    <li class="breadcrumb-item"><a href="institucionales.php">Institucionales</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Representantes</li>
                 </ol>
             </nav>
         </div>
@@ -21,7 +22,7 @@
                 <div class="card-deck mx-auto">    
                     <div class="col-md-4">
                         <figure class="tarjeta red">
-                        <img src="img/reseña.png"/>
+                        <img src="img/representantes.png"/>
                         <figcaption>
                             <h2>Consejo Departamental</h2>
                             <p>Consejo Departamental</p>
@@ -31,7 +32,7 @@
                     </div>
                     <div class="col-md-4">
                         <figure class="tarjeta navy">
-                        <img src="img/mision.png"/>
+                        <img src="img/representantes.png"/>
                         <figcaption>
                             <h2>Asamblea Departamental</h2>
                             <p>Asamblea Departamental</p>
@@ -41,7 +42,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <figure class="tarjeta navy">
+                        <figure class="tarjeta red">
                         <img src="img/representantes.png"/>
                         <figcaption>
                             <h2>Capitulos</h2>
@@ -52,8 +53,8 @@
                     </div>
 
                     <div class="col-md-4">
-                        <figure class="tarjeta red">
-                        <img src="img/documentos.png"/>
+                        <figure class="tarjeta navy">
+                        <img src="img/representantes.png"/>
                         <figcaption>
                             <h2>Decanos Pasados</h2>
                             <p>Decanos Pasados</p>

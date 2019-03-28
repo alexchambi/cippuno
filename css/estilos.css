@@ -1,5 +1,6 @@
 body{
-	background-color: whitesmoke;
+
+	background-color: #e9ecef !important;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
   color: #37474F;
@@ -8,10 +9,16 @@ h1,h2,h3 {
   font-weight: 200;
 }
 
+.bg-danger{
+	background-color: #bd2130 !important;
+}
+
+
 
 /*----------- Menu Top -----------*/
 .nav-top{
 	background-color: #212529;
+	/*background-color: #bd2130;*/
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 }
@@ -44,7 +51,7 @@ h1,h2,h3 {
 	font-size: 17px;
 }
 .navbar .navbar-expand-lg{
-	background-color: whitesmoke !important;
+	background-color: #e9ecef !important;
 }
 .navbar .navbar-brand{
     padding: 0px;
@@ -183,6 +190,9 @@ h1,h2,h3 {
 }
 
 /*	Menu carousel	*/
+.menu-carousel{
+	padding-top: 20px;
+}
 .menu-carousel .list-inline{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400px;
@@ -220,11 +230,11 @@ h1,h2,h3 {
 
 /* Miga de Pan */
 .breadcrumbedit{
-	background-color: rgb(209,10,17);
+	background-color:#bd2130;
 	color: white;
 }
 .breadcrumbedit .breadcrumb{
-	background-color: rgb(209,10,17);
+	background-color:#bd2130;
 	color: white;
 }
 .breadcrumbedit h2{
@@ -249,13 +259,28 @@ h1,h2,h3 {
 	margin-top: 5vh;
 }
 
-.eventoscip{
-	background-color: white !important;
-	margin: 30px;
+.actualidad{
+	background-color:white !important;
+	margin-top: 20px;
+}
+.actualidad .container{
+	padding: 20px 0px 20px 0px;
+}
+.actualidad .container h1{
+	padding: 15px 0px 20px 0px;
+
 }
 
+.eventoscip{
+	background-color:whitesmoke !important;
+}
+.eventoscip .container{
+	padding: 20px 20px 20px 20px;
+}
+.eventoscip .container h1{
+	padding: 15px 0px 20px 0px;
+}
 
-/*Actualidad */
 
 
 .comunicados section ul{
@@ -335,9 +360,8 @@ h1,h2,h3 {
 
 
 /*institucionales*/
-.services{
-    margin: 20px auto;
-}
+
+
 figure.tarjeta {
 	color: #fff;
   position: relative;
@@ -414,7 +438,7 @@ figure.tarjeta.navy {
   background-color: #222f3d;
 }
 figure.tarjeta.red {
-  background-color: #d42d24;
+  background-color: #bd2130;
 }
 figure.tarjeta:hover img,
 figure.tarjeta.hover img {
@@ -432,6 +456,9 @@ figure.tarjeta.hover a {
 /*normativos*/
 #accordion .btn-link{
 	color: #241616;
+}
+#docs{
+	margin-bottom: 15px;
 }
 
 /* Footer */
@@ -455,7 +482,7 @@ footer a .fa{
 	font-size: 16px;
 	border-radius: 50%;
 	margin: 0px;
-	background-color: #d42d24;
+	background-color: #bd2130;
 	padding: 9px;
 	width: 36px;
 	height: 36px;

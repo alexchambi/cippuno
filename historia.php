@@ -21,7 +21,7 @@
             <div class="col-md-12">
                 <div class="jumbotron">
                     <h1 class="display-4 text-center">Reseña Histórica</h1>
-                    <hr class="my-4">
+                    <hr class="-4">
                     <div class="text-justify">
                         <p class="lead">El Colegio de Ingenieros del Perú tiene sus inicios en la Primera Conferencia Nacional de Ingeniería realizada en 1932 por la Sociedad de Ingenieros del Perú donde se hace por primera vez la propuesta, la cual no prosperó; sin embargo 30 años después se cristalizó ante la necesidad de colegiación de los ingenieros.</p>
                         
