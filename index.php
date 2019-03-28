@@ -1,7 +1,7 @@
     <?php
         require 'header.php'
     ?>
-    
+
     <!--Carousel-->
     <div class="carousel slide" data-ride="carousel" id="carouselcip" >
         <ol class="carousel-indicators">
@@ -32,7 +32,7 @@
                     <a href="#">Informacion</a>
                 </div>
             </div>
-            <!--d-none d-md-block-->
+            
             <div class="carousel-item animated ">
                 <img src="img/banner3.png" class="d-block img-fluid">
                 <div class="animated bounceInDown carousel-nota-der d-none d-md-block" style="animation-delay: 1s">
@@ -71,10 +71,9 @@
 
     <div class="actualidad">
         <div class="container">
-            <h1 class="text-center my-3">Actualidad</h1>
+            <h1 class="text-center my-7 font-weight-bold ">Actualidad</h1>
             <div id="actualidad" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner row w-100 mx-auto">
-                    
+                <div class="carousel-inner row w-100 mx-auto">                    
                     <div class="carousel-item col-md-6 col-lg-4 active">
                         <div class="card text-white bg-danger">
                             <a href="#" class="ventanamodal">
@@ -86,7 +85,6 @@
                             </div>
                         </div>
                     </div>
-                    
 
                     <div class="carousel-item col-md-6 col-lg-4">
                         <div class="card">
@@ -163,26 +161,57 @@
           </div>
         </div>
       </div>
-    </div>
-    
-    <!--Fin Actualidad-->
-  <!-- .modal-profile -->
-  <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close" type="button" data-dismiss="modal">×</button>
-                    <h3 class="modal-title"></h3>
-                </div>
-                <div class="modal-body">
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+
+        <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" type="button" data-dismiss="modal">×</button>
+                        <h3 class="modal-title"></h3>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-<!-- //.modal-profile -->
+    
+    <!--Fin Actualidad-->
+
+
+    <!-- EVENTOS CIP-->
+
+    <div class="eventoscip">
+        <div class="container mx-auto">
+            <h1 class="text-center font-weight-bold">Eventos CIP</h1>
+            <div class="row">
+                <div class="container col-md-4">             
+                    <div class="card">
+                        <a href="#" class="ventanamodal">
+                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                        </a>
+                    </div>
+                </div>
+                <div class="container col-md-4">
+
+                </div>
+                <div class="container col-md-4">                   
+                    <div class="card">
+                        <a href="#" class="ventanamodal">
+                            <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                        </a>
+                    </div>
+                </div> 
+            <button class="btn btn-lg btn-primary mx-auto pd-12"><i class="fa fa-calendar"></i> Ver Calendario de Eventos</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENTOS CIP-->
+
 
 
     <div class="container contenido">

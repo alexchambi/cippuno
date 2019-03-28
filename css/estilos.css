@@ -9,7 +9,6 @@ h1,h2,h3 {
 }
 
 
-
 /*----------- Menu Top -----------*/
 .nav-top{
 	background-color: #212529;
@@ -250,6 +249,11 @@ h1,h2,h3 {
 	margin-top: 5vh;
 }
 
+.eventoscip{
+	background-color: white !important;
+	margin: 30px;
+}
+
 
 /*Actualidad */
 
@@ -429,7 +433,6 @@ figure.tarjeta.hover a {
 #accordion .btn-link{
 	color: #241616;
 }
-
 
 /* Footer */
 footer{

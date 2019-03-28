@@ -20,16 +20,17 @@
     <div class="nav-top">
         <div class="container">
             <div class="navbar">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="index.php">Home</a></li>
+                <ul class="list-inline font-weight-bold">
+                    <li class="list-inline-item"><a class="d-none d-md-block" href="index.php">Home</a></li>
                     <li class="list-inline-item"><a href="contacto.php">Contacto</a></li>
                     <li class="list-inline-item"><a href="mapa.php">Mapa del Sitio</a></li>
+                    <li class="list-inline-item"><a href="servicios.php">Servicios CIP</a></li>
                 </ul>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="https://www.facebook.com/CipPuno" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a class="d-none d-md-block" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -50,6 +51,17 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                        <a class="nav-link" href="index.php">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="institucionales.php" id="institucionales" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institucionales</a>
+                        <ul class="dropdown-menu" aria-labelledby="institucionales">
+                            <li><a class="dropdown-item" href="historia.php">Reseña Histórica</a></li>
+                            <li><a class="dropdown-item" href="vision.php">Misión y Visión</a></li>   
+                            <li><a class="dropdown-item" href="directiva.php">Representantes</a></li>
+                            <li><a class="dropdown-item" href="oficinas.php">Oficinas</a></li>
+                            <li><a class="dropdown-item" href="documentosnormativos.php">Documentos Normativos</a></li>   
+                        </ul>
                     </li>
                     
                     <li class="nav-item dropdown">
@@ -83,26 +95,6 @@
                             </div>
                         </ul>
                     </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="institucionales.php" id="institucionales" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institucionales</a>
-                        <ul class="dropdown-menu" aria-labelledby="institucionales">
-                            <li><a class="dropdown-item" href="historia.php">Reseña Histórica</a></li>
-                            <li><a class="dropdown-item" href="vision.php">Misión y Visión</a></li>
-                            <li><a class="dropdown-item" href="documentosnormativos.php">Documentos Normativos</a></li>   
-                            <li><a class="dropdown-item" href="directiva.php">Representantes</a></li>   
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="directiva.php" id="directiva" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Directiva</a>
-                        <ul class="dropdown-menu" aria-labelledby="directiva">
-                            <li><a class="dropdown-item" href="consejo.php">Consejo Departamental</a></li>
-                            <li><a class="dropdown-item" href="asamblea.php">Asamblea Departamental</a></li>
-                            <li><a class="dropdown-item" href="pastdecanos.php">Historial Decanal</a></li>
-                            <li><a class="dropdown-item" href="directiva.php">Representante de Capítulos</a></li>      
-                        </ul>
-                    </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="tramite.php" id="tramites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trámites</a>
@@ -110,6 +102,15 @@
                             <li><a class="dropdown-item" href="tramite.php">Trámite Documentario</a></li>
                             <li><a class="dropdown-item" href="buscarcolegiado.php">Búsqueda de Colegiado</a></li>
                             <li><a class="dropdown-item" href="colegiatura.php">Colegiatura</a></li>    
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="prensa.php" id="prensa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prensa</a>
+                        <ul class="dropdown-menu" aria-labelledby="prensa">
+                            <li><a class="dropdown-item" href="comunicados.php">Comunicados</a></li>
+                            <li><a class="dropdown-item" href="resoluciones.php">Resoluciones</a></li>
+                            <li><a class="dropdown-item" href="pronunciamientos.php">Pronunciamientos</a></li>    
                         </ul>
                     </li>
                 </ul>

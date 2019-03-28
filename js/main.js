@@ -14,61 +14,15 @@ menutop = new Vue({
     }
 });
 
-menuprincipal = new Vue({
-    el: '#menuprincipal',
-    data: {
-        logoimagen: 'img/logoindie.png',
-        menus:[
-            {nombre: 'Inicio', link: 'index.html'}
-        ],
-        capitulos1: [
-            {nombre: 'Agrícolas', link: 'index.html'},
-            {nombre: 'Agroindustriales', link: 'contacto.html'},
-            {nombre: 'Agronomos y Zootecnistas', link: 'mapa.html'},
-            {nombre: 'Civiles', link: 'mapa.html'},
-            {nombre: 'De Minas', link: 'mapa.html'},
-            {nombre: 'De Sistemas', link: 'mapa.html'},
-            {nombre: 'Economistas', link: 'mapa.html'},
-            {nombre: 'Electricistas', link: 'mapa.html'},
-        ],
-        capitulos2: [
-            {nombre: 'Electronicos', link: 'mapa.html'},
-            {nombre: 'Estadisticos', link: 'mapa.html'},
-            {nombre: 'Geólogos', link: 'mapa.html'},
-            {nombre: 'Mecánicos y Electricistas', link: 'mapa.html'},
-            {nombre: 'Metalurgistas', link: 'mapa.html'},
-            {nombre: 'Pesqueros', link: 'mapa.html'},
-            {nombre: 'Químicos', link: 'mapa.html'},
-            {nombre: 'Topografos y Agrimensura', link: 'mapa.html'}
-        ],
-        representantes:[
-            {nombre: 'Consejo Departamental', link: 'index.html'},
-            {nombre: 'Asamblea Departamental', link: 'contacto.html'},
-            {nombre: 'Decanos Pasados', link: 'mapa.html'}
-        ],
-        tramites:[
-            {nombre: 'Certificado de Habilidad', link: 'index.html'},
-            {nombre: 'Cambio de Sede', link: 'contacto.html'},
-            {nombre: 'Duplicado de Carnet', link: 'mapa.html'},
-            {nombre: 'Recarnetización', link: 'mapa.html'},
-            {nombre: 'Pago de Aportaciones', link: 'mapa.html'} 
-        ],
-        somos:[
-            {nombre: 'Mision y Vision', link: 'index.html'},
-            {nombre: 'Reseña Historica', link: 'contacto.html'},
-            {nombre: 'Horario de Atencion', link: 'mapa.html'}
-        ]
-    }
-});
 
 menucarousel = new Vue({
     el: '#menucarousel',
     data: {
         menus: [
-            {nombre: 'Colegiacion', icon: 'fa fa-graduation-cap', link: 'colegiatura.php'},
-            {nombre: 'Buscar Colegiado', icon: 'fa fa-search', link: 'buscarcolegiado.php'},
             {nombre: 'Tramite', icon: 'fa fa-book', link: 'tramite.php'},
-            {nombre: 'Institucionales', icon: 'fa fa-university', link: 'institucionales.php'}
+            {nombre: 'Colegiacion', icon: 'fa fa-graduation-cap', link: 'colegiatura.php'},
+            {nombre: 'Institucionales', icon: 'fa fa-university', link: 'institucionales.php'},
+            {nombre: 'Buscar Colegiado', icon: 'fa fa-search', link: 'buscarcolegiado.php'} 
         ],
     }
 });
@@ -76,7 +30,7 @@ menucarousel = new Vue({
 mostrarTramite = new Vue({
     el:"#tramite",
     data:{
-        mostrar:true
+        mostrar:true,
     }
 });
 

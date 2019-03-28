@@ -18,6 +18,7 @@
     <div class="container">    
         <div class="services">
             <div class="row">
+                <div class="card-deck mx-auto">
                 <div class="col-md-4">
                     <figure class="tarjeta red">
                     <img src="img/reseña.png"/>
@@ -54,10 +55,12 @@
                     <figcaption>
                         <h2>Representantes</h2>
                         <p>Representantes</p>
-                        <a href="representantes.php">Ir</a>
+                        <a href="directiva.php">Ir</a>
                     </figcaption>
                     </figure>
                 </div>
+                </div>
+                
             </div>
         </div>
     </div>
