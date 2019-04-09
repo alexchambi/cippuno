@@ -23,7 +23,7 @@
             <hr>
             <div class="">
                 <h5 class="font-weight-bold">Horario de Atención:</h5>
-                <table class="table">
+                <table class="table table-responsive-md">
                     <tbody>
                         <tr>
                             <th>RPM</th>
@@ -57,7 +57,7 @@
             <p>Herramientas virtuales están al servicio de empresas formalmente constituidas que deseen gestionar una oferta laboral y ésta pueda llegar a toda la Base de Datos de los Ingenieros del CIP y para nuestros agremiados que tengan la alternativa de mejoras en cuanto a su vida profesional a través de éstas ofertas laborales. Éste servicio es exclusivo para nuestros agremiados y empresas (completamente gratuito).</p>
             <p>Para ingresar se necesita una cuenta en el sistema CIPvirtual v1.0</p>
 
-            <div class="accordion" id="acordionbolsa">
+            <div class="accordion table-responsive-md" id="acordionbolsa">
                 
                     <div class="card-header" id="empresas">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseempresas" aria-expanded="true" aria-controls="collapseempresas">
