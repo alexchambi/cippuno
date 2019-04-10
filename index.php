@@ -65,86 +65,44 @@
     </div>
 
 
-    <!----------------------Contenido--------------------->
+    <!--        Contenido               -->
 
-    <!--Actualidad-->
-
-    <div class="actualidad">
+    <!-- EVENTOS CIP-->
+    <div class="eventos">
         <div class="container">
-            <h1 class="text-center font-weight-bold">Actualidad</h1>
+            <h1 class="text-center font-weight-bold">Eventos CIP</h1>
             
-            <div id="actualidad" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner row w-100 mx-auto">    
-
+            <div id="eventos" class="carousel slide" data-ride="carousel">
+                <div class="card-deck carousel-inner row w-100 mx-auto">    
                     <div class="carousel-item col-md-6 col-lg-4 active">
-                        <div class="card text-white bg-danger">
+                        <div class="card">
                             <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                                <img class="card-img-top" src="img/eventos/cursodevidautil.jpg" alt="Card image cap">
                             </a>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 1</h4>
-                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item col-md-6 col-lg-4">
-                        <div class="card text-white bg-danger">
+                        <div class="card">
                             <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                                <img class="card-img-top" src="img/eventos/maccaferri.jpg" alt="Card image cap">
                             </a>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 2</h4>
-                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item col-md-6 col-lg-4">
-                        <div class="card text-white bg-danger">
-                                <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
-                            </a>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 3</h4>
-                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item col-md-6 col-lg-4">
-                        <div class="card text-white bg-danger">
+                        <div class="card">
                             <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                                <img class="card-img-top" src="img/eventos/pavimentos.png" alt="Card image cap">
                             </a>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 4</h4>
-                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item col-md-6 col-lg-4">
-                        <div class="card text-white bg-danger">
-                                <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
-                            </a>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 5</h4>
-                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item col-md-6 col-lg-4">
-                        <div class="card text-white bg-danger">
+                        <div class="card">
                             <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="http://lorempixel.com/350/230/" alt="Card image cap">
+                                <img class="card-img-top" src="img/eventos/sistemabombeo.jpg" alt="Card image cap">
                             </a>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 6</h4>
-                                <p class="card-text"><small>Ultima actualizacion hace 3 min</small></p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,12 +110,8 @@
           <div class="container">
             <div class="row">
               <div class="col-12 text-center mt-4">
-                <a class="btn btn-outline-secondary mx-1 anterior" href="javascript:void(0)" title="Previous">
-                  <i class="fa fa-lg fa-chevron-left"></i>
-                </a>
-                <a class="btn btn-outline-secondary mx-1 siguiente" href="javascript:void(0)" title="Next">
-                  <i class="fa fa-lg fa-chevron-right"></i>
-                </a>
+                <a class="btn btn-outline-secondary mx-1 anterior" href="javascript:void(0)" title="Previous"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary mx-1 siguiente" href="javascript:void(0)" title="Next"><i class="fa fa-lg fa-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -180,256 +134,46 @@
                 </div>
             </div>
         </div>
-
     </div>
-    
-    <!--Fin Actualidad-->
+    <!-- Fin Eventos -->
 
+    <div class="actualidad">
+        <div class="container mx-auto center">
+            <h1 class="text-center font-weight-bold">Actualidad</h1>
 
-    <!-- EVENTOS CIP-->
-
-    <div class="eventoscip">
-        <div class="container mx-auto">
-            <h1 class="text-center font-weight-bold">Eventos CIP</h1>
             <div class="row">
-                <div class="card-deck">
-                    <div class="container col-md-5">             
-                        <div class="card">
-                            <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="img/eventos/maccaferri.jpg" alt="Card image cap">
-                            </a>
-                        </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#citacion" data-toggle="modal">
+                            <img class="img-thumbnail" src="img/actualidad/comunicado01.png" alt="Citacion">
+                        </a>
                     </div>
-                    <div class="container col-md-1">
-
-                    </div>
-                    <div class="container col-md-5">                   
-                        <div class="card">
-                            <a href="#" class="ventanamodal">
-                                <img class="card-img-top" src="img/eventos/sistemabombeo.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                    </div> 
-                </div>
-            <button class="btn btn-lg btn-primary mx-auto pd-12"><i class="fa fa-calendar"></i> Ver Calendario de Eventos</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- EVENTOS CIP-->
-
-
-
-    <div class="container contenido">
-
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-
-                <!--Comunicados-->
-                <div class="comunicados">
-                    <section>
-                        <ul class="list-inline info-block-title">
-                            <li class="list-inline-item"><h3>COMUNICADOS</h3></li>
-                        </ul>
-                    </section>
-                    <ul type="square">
-                        <li>
-                            <strong><a href="#">Cronograma de Actividades 2019-I</a></strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </li>
-                        <li>
-                            <strong><a href="#">Recepcion de Colegiados 2019-I</a></strong>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </li>
-                    </ul>    
-                </div>
-
-                <!--Agenda-->
-                <div class="agenda">
-                    <section>
-                        <ul class="list-inline info-block-title">
-                            <li class="list-inline-item"><h3>AGENDA</h3></li>
-                        </ul>
-                    </section>
-
-                    <ul class="list-unstyled">
-                        <li class="media">
-                            <div class="fecha-agenda">
-                                <strong>ENE</strong><br>20
-                            </div>
-                            <div class="media-body">
-                                <h5>Titulo</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate in destinas 13 asd.</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="fecha-agenda">
-                                <strong>DIC</strong><br>10
-                            </div>
-                            <div class="media-body">
-                                <h5>Titulo</h5>
-                                <p>
-                                    Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="col-sm-12 col-md-12 col-lg-8">
-
-                <!--Noticias Recientes-->
-                <div class="noticias-recientes">
-                    <section>
-                        <ul class="list-inline info-block-title">
-                            <li class="list-inline-item"><h3>NOTICIAS RECIENTES</h3></li>
-                        </ul>
-                    </section>
-                    
-                    <div class="row">
-
-                        <!--Noticias-->
-                        <div class="col-sm-12 col-md-12 col-lg-8">
-
-                            <div class="noticia-principal">
-                                <figure class="position-relative">
-                                    <a href="#"><img src="img/beca.png" class="w-100" alt=""></a>
-                                    <figcaption class="position-absolute">
-                                        <h4><a href="#" class="text-white">BECA PERMANENCIA </a></h4>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="noticias-pasadas media mb-2">
-                                <a href="#"><img class="align-self-center mr-3 mb-2" src="img/bootstrap.jpeg" alt="Generic placeholder image"></a>
-                                <div class="media-body align-self-center">
-                                    <h5 class="mt-0"><a href="#" class="text-dark">Curso de Bootstrap</a></h5>
-                                </div>
-                            </div>
-                            <div class="noticias-pasadas media mb-2">
-                                <a href="#"><img class="align-self-center mr-3 mb-2" src="img/bootstrap.jpeg" alt="Generic placeholder image"></a>
-                                <div class="media-body align-self-center">
-                                    <h5 class="mt-0"><a href="#" class="text-dark">Curso de Bootstrap</a></h5>
-                                </div>
-                            </div>
-                            <div class="noticias-pasadas media mb-2">
-                                <a href="#"><img class="align-self-center mr-3 mb-2" src="img/bootstrap.jpeg" alt="Generic placeholder image"></a>
-                                <div class="media-body align-self-center">
-                                    <h5 class="mt-0"><a href="#" class="text-dark">Curso de Bootstrap</a></h5>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-sm-12 col-md-12 col-lg-4">
-                            <div class="row">
-                                <div class="col-md-4 col-lg-12">
-                                    <div class=" tarjetas card text-white bg-dark mb-3">
-                                        <a href=""><img src="img/auditorio.jpg" class="w-100" alt=""></a>
-                                        <div class="card-body">
-                                            <h6 class="card-title"><a href="" class="text-white">Satelite Perú Sat 1 al servicio de la UNA Puno</a></h6>
-                                        </div>
+                    <div class="modal fade bd-example-modal-lg" id="citacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center font-italic" id="exampleModalLabel">CITACIÓN N° 01-2019-CIP-CD-PUNO</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-fluid mx-auto d-block" src="img/actualidad/citacion001.jpg" alt="CitacionCIP">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-12">
-                                    <div class="tarjetas card text-white bg-dark mb-3">
-                                        <a href=""><img src="img/docentes.png" class="w-100" alt=""></a>
-                                        <div class="card-body">
-                                            <h6 class="card-title"><a class="text-white" href="">Se capacitan el uso y acceso a las aulas virtuales</a></h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-4 col-lg-12">
-                                    <div class="tarjetas card text-white bg-dark mb-3">
-                                        <a href=""><img src="img/auditorio.jpg" class="w-100" alt=""></a>
-                                        <div class="card-body">
-                                            <h6 class="card-title"><a class="text-white" href="">Se capacitan el uso y acceso a las aulas virtuales</a></h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>	   
+                            </div>
                         </div>
-                    </div>        
+                </div>
+                <div class="col-md-4">
                 </div>
             </div>
-        </div>
 
-        <div class="services">
-            <div class="row">
-                <div class="col-md-12 col-lg-12">
-                    
-                    <!--Blog-->   
-                    <section class="text-center">
-                        <h3>BLOG</h3>
-                    </section> 
-                    <div class="card-deck">
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <figure class="tarjeta red">
-                                <img src="img/auditorio.jpg"/>
-                                <figcaption>
-                                    <a href="historia.php">Ir</a>
-                                </figcaption>
-                                <div class="card-body">
-                                    <h5 class="card-title">Auditorio</h5>
-                                </div>
-                            <div class="card-footer">
-                                    <small>3 mins ago</small>
-                            </div>
-                            </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <figure class="tarjeta red">
-                                <img src="img/docentes.png"/>
-                                <figcaption>
-                                    <a href="historia.php">Ir</a>
-                                </figcaption>
-                                <div class="card-body">
-                                    <h5 class="card-title">Docentes</h5>
-                                </div>
-                            <div class="card-footer">
-                                    <small>3 mins ago</small>
-                            </div>
-                            </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <figure class="tarjeta red">
-                                <img src="img/auditorio.jpg"/>
-                                <figcaption>
-                                    <a href="historia.php">Ir</a>
-                                </figcaption>
-                                <div class="card-body">
-                                    <h5 class="card-title">Auditorio</h5>
-                                </div>
-                            <div class="card-footer">
-                                    <small>3 mins ago</small>
-                            </div>
-                            </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <figure class="tarjeta red">
-                                <img src="img/docentes.png"/>
-                                <figcaption>
-                                    <a href="historia.php">Ir</a>
-                                </figcaption>
-                                <div class="card-body">
-                                    <h5 class="card-title text-white">DOcentes</h5>
-                                </div>
-                            <div class="card-footer">
-                                    <small>3 mins ago</small>
-                            </div>
-                            </figure>
-                        </div>
-                    </div>
-                </div> 
-            </div>
         </div>
-
     </div>
 
     <?php

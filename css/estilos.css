@@ -37,11 +37,12 @@ h1,h2,h3 {
    margin: 0px;
 }
 .nav-top .container .navbar ul li a{
-    color: #ccc;
+		
+		color: #fff;
     padding-right: 20px;
 }
 .nav-top .container .navbar ul li a:hover{
-    color: #fff;
+	color: #ccc;
 }
 
 /*-------------------- Navbar----------------*/
@@ -259,25 +260,25 @@ h1,h2,h3 {
 	margin-top: 5vh;
 }
 
-.actualidad{
+.eventos{
 	background-color:white !important;
 	margin-top: 20px;
 }
-.actualidad .container{
+.eventos .container{
 	padding: 20px 0px 20px 0px;
 }
-.actualidad .container h1{
+.eventos .container h1{
 	padding: 15px 0px 20px 0px;
 
 }
 
-.eventoscip{
+.actualidad{
 	background-color:whitesmoke !important;
 }
-.eventoscip .container{
+.actualidad .container{
 	padding: 20px 20px 20px 20px;
 }
-.eventoscip .container h1{
+.actualidad .container h1{
 	padding: 15px 0px 20px 0px;
 }
 
@@ -610,22 +611,22 @@ footer .footer-copyright{
 /* Tablet and up */
 
 @media screen and (min-width: 768px) {
-	.actualidad .carousel-inner .active,
-	.actualidad .carousel-inner .active+.carousel-item {
+	.eventos .carousel-inner .active,
+	.eventos .carousel-inner .active+.carousel-item {
 		display: block;
 	}
-	.actualidad .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-	.actualidad .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
+	.eventos .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	.eventos .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
 		-webkit-transition: none;
 		transition: none;
 	}
-	.actualidad .carousel-inner .carousel-item-next,
-	.actualidad .carousel-inner .carousel-item-prev {
+	.eventos .carousel-inner .carousel-item-next,
+	.eventos .carousel-inner .carousel-item-prev {
 		position: relative;
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
 	}
-	.actualidad .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+	.eventos .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
 		position: absolute;
 		top: 0;
 		right: -50%;
@@ -634,15 +635,15 @@ footer .footer-copyright{
 		visibility: visible;
 	}
 	/* left or forward direction */
-	.actualidad .active.carousel-item-left+.carousel-item-next.carousel-item-left,
-	.actualidad .carousel-item-next.carousel-item-left+.carousel-item {
+	.eventos .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+	.eventos .carousel-item-next.carousel-item-left+.carousel-item {
 		position: relative;
 		-webkit-transform: translate3d(-100%, 0, 0);
 		transform: translate3d(-100%, 0, 0);
 		visibility: visible;
 	}
 	/* farthest right hidden item must be abso position for animations */
-	.actualidad .carousel-inner .carousel-item-prev.carousel-item-right {
+	.eventos .carousel-inner .carousel-item-prev.carousel-item-right {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -651,8 +652,8 @@ footer .footer-copyright{
 		visibility: visible;
 	}
 	/* right or prev direction */
-	.actualidad .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-	.actualidad .carousel-item-prev.carousel-item-right+.carousel-item {
+	.eventos .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+	.eventos .carousel-item-prev.carousel-item-right+.carousel-item {
 		position: relative;
 		-webkit-transform: translate3d(100%, 0, 0);
 		transform: translate3d(100%, 0, 0);
@@ -665,24 +666,24 @@ footer .footer-copyright{
 /* Desktop and up */
 
 @media screen and (min-width: 992px) {
-	.actualidad .carousel-inner .active,
-	.actualidad .carousel-inner .active+.carousel-item,
-	.actualidad .carousel-inner .active+.carousel-item+.carousel-item {
+	.eventos .carousel-inner .active,
+	.eventos .carousel-inner .active+.carousel-item,
+	.eventos .carousel-inner .active+.carousel-item+.carousel-item {
 		display: block;
 	}
-	.actualidad .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-	.actualidad .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
-	.actualidad .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+	.eventos .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	.eventos .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+	.eventos .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
 		-webkit-transition: none;
 		transition: none;
 	}
-	.actualidad .carousel-inner .carousel-item-next,
-	.actualidad .carousel-inner .carousel-item-prev {
+	.eventos .carousel-inner .carousel-item-next,
+	.eventos .carousel-inner .carousel-item-prev {
 		position: relative;
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
 	}
-	.actualidad .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+	.eventos .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
 		position: absolute;
 		top: 0;
 		right: -33.3333%;
@@ -691,17 +692,17 @@ footer .footer-copyright{
 		visibility: visible;
 	}
 	/* left or forward direction */
-	.actualidad .active.carousel-item-left+.carousel-item-next.carousel-item-left,
-	.actualidad .carousel-item-next.carousel-item-left+.carousel-item,
-	.actualidad .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
-	.actualidad .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+	.eventos .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+	.eventos .carousel-item-next.carousel-item-left+.carousel-item,
+	.eventos .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+	.eventos .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
 		position: relative;
 		-webkit-transform: translate3d(-100%, 0, 0);
 		transform: translate3d(-100%, 0, 0);
 		visibility: visible;
 	}
 	/* farthest right hidden item must be abso position for animations */
-	.actualidad .carousel-inner .carousel-item-prev.carousel-item-right {
+	.eventos .carousel-inner .carousel-item-prev.carousel-item-right {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -710,10 +711,10 @@ footer .footer-copyright{
 		visibility: visible;
 	}
 	/* right or prev direction */
-	.actualidad .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-	.actualidad .carousel-item-prev.carousel-item-right+.carousel-item,
-	.actualidad .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
-	.actualidad .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+	.eventos .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+	.eventos .carousel-item-prev.carousel-item-right+.carousel-item,
+	.eventos .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+	.eventos .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
 		position: relative;
 		-webkit-transform: translate3d(100%, 0, 0);
 		transform: translate3d(100%, 0, 0);

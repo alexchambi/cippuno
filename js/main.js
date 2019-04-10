@@ -22,7 +22,7 @@ menucarousel = new Vue({
             {nombre: 'Tramite', icon: 'fa fa-book', link: 'tramite.php'},
             {nombre: 'Colegiacion', icon: 'fa fa-graduation-cap', link: 'colegiatura.php'},
             {nombre: 'Institucionales', icon: 'fa fa-university', link: 'institucionales.php'},
-            {nombre: 'Buscar Colegiado', icon: 'fa fa-search', link: 'buscarcolegiado.php'} 
+            {nombre: 'Buscar Colegiado', icon: 'fa fa-search', link: 'https://cipvirtual.cip.org.pe/sicecolegiacionweb/externo/consultaCol/'} 
         ],
     }
 });
