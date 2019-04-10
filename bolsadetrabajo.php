@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Bolsa de Trabajos";
     require 'header.php'
 ?>
 

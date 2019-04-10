@@ -1,4 +1,5 @@
-<?php   
+<?php
+    $pageTitle = "Asamblea Departamental";
     require "header.php";
 ?>
 <div class="breadcrumbedit">

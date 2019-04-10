@@ -1,4 +1,5 @@
-<?php   
+<?php
+    $pageTitle = "Consejo Departamental";
     require "header.php";
 ?>
 

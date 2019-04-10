@@ -1,4 +1,5 @@
     <?php
+        $pageTitle = "Búsqueda de Colegiados";
         require 'header.php'
     ?>
 

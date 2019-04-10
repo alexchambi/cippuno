@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Pronunciamientos";
     require 'header.php'
 ?>
 

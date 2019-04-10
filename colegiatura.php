@@ -1,4 +1,5 @@
     <?php
+        $pageTitle = "Requisitos";
         require 'header.php'
     ?>
 

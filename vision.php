@@ -1,4 +1,5 @@
     <?php
+        $pageTitle = "Misión y Visión";
         require 'header.php'
     ?>
 

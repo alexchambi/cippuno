@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Institucionales";
     require 'header.php'
 ?>
 

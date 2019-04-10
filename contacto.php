@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Contactenos";
     require 'header.php'
 ?>
 

@@ -1,4 +1,5 @@
-<?php   
+<?php
+    $pageTitle = "Decanos Pasados"; 
     require "header.php";
 ?>
 <div class="breadcrumbedit">

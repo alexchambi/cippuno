@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Instituto de Servicios Sociales";
     require 'header.php'
 ?>
 

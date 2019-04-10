@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Asistencia Médica";
     require 'header.php'
 ?>
 

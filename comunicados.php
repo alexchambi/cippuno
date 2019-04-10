@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Comunicados";
     require 'header.php'
 ?>
 

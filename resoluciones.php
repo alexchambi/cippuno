@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Resoluciones";
     require 'header.php'
 ?>
 

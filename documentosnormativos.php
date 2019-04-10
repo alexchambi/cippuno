@@ -1,4 +1,5 @@
     <?php
+        $pageTitle = "Documentos Normativos";
         require 'header.php'
     ?>
     

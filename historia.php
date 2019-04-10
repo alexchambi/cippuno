@@ -1,4 +1,5 @@
     <?php
+        $pageTitle = "Reseña Histórica";
         require 'header.php'
     ?>
 

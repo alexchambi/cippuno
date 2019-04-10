@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Capítulos";
     require 'header.php'
 ?>
     <div id="app">

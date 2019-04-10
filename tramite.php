@@ -1,4 +1,5 @@
     <?php
+        $pageTitle = "Servicio de Trámite Documentario";
         require 'header.php'
     ?>
 

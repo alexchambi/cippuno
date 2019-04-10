@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = "Servicios";
     require 'header.php'
 ?>
 

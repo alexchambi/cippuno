@@ -1,5 +1,6 @@
     <?php
-        require 'header.php'
+        $pageTitle = "Colegio de Ingenieros del Perú - Consejo Departamental Puno";
+        require 'header.php';
     ?>
 
     <!--Carousel-->
