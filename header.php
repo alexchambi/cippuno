@@ -8,7 +8,7 @@
     <!--link rel="stylesheet" href="css/bootstrap.min.css"-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arimo|Lato|Open+Sans|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.css">
 
@@ -100,7 +100,7 @@
                         <a class="nav-link dropdown-toggle" href="tramite.php" id="tramites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trámites</a>
                         <ul class="dropdown-menu" aria-labelledby="tramites">
                             <li><a class="dropdown-item" href="tramite.php">Trámite Documentario</a></li>
-                            <li><a class="dropdown-item" href="buscarcolegiado.php">Búsqueda de Colegiado</a></li>
+                            <li><a class="dropdown-item" href="https://cipvirtual.cip.org.pe/sicecolegiacionweb/externo/consultaCol/">Búsqueda de Colegiado</a></li>
                             <li><a class="dropdown-item" href="colegiatura.php">Colegiatura</a></li>    
                         </ul>
                     </li>
